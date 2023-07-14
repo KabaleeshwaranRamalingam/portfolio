@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Ysabeau+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to left,rgb(2, 75, 67),rgb(152, 188, 152));
+    height: 100vh;
+}
+.navbar-brand{
+    color:#4C4B16 !important;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+}
+.bg-dark{
+    background:linear-gradient(to left,rgb(2, 75, 67),rgb(152, 188, 152)) ;
+}
+.nav-link{
+    font-weight: 700;
+}
+h1{
+    color:#FCE22A;
+    margin-left:70px;
+    text-decoration:underline;
+}
+.homeSection h2{
+     font-family: 'Chela One', cursive;
+}
+.homeSection p{
+    color: greenyellow;
+}
+.homeSection{
+    font-family: 'Lugrasimo', cursive;
+}
+.Span-Initial-IM{
+    color: #4C4B16;
+    font-weight:bolder;
+    position: relative;
+    left: 25%;
+}
+.profilePic{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 3px solid  rgb(234, 149, 177);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+}
+.profileButton{
+    border-radius: 10px;
+    background-color: rgb(96, 96, 250);
+    color: azure;
+    border-color:rgb(96, 96, 250) ;
+    position: relative;
+    left: -10px !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.aboutSection{
+    height:100vh;
+    align-items: center;
+}
+.aboutSection p{
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: brown;
+    font-weight: 600;
+}
+.aboutMe{
+    box-shadow: 3px 3px 25px rgb(233, 190, 110);
+}
+.webDevelopmentImg{
+    height: 150px;
+    width: 300px;
+}
+.homeText{
+    margin-top: 150px;
+    box-shadow: 3px 3px 25px palevioletred;
+}
+.skillSection{}
+i{
+    font-size:xx-large;
+}
+.skillSection p{
+    font-family: 'Caveat', cursive;  
+}
+.skillSection a{
+    font-family: monospace;
+    font-weight: 700;
+    color:springgreen;
+}
+.skills{
+    box-shadow: 3px 3px 25px burlywood;
+}
+.card{
+    border: none;
+}
+.certificationSection{
+    height: 100vh;
+}
+.certificates{
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 25px rgb(241, 181, 69);
+}
+.btn{
+    width: 200px;
+    position: relative;
+    left:50px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.certificationSection h1{
+    margin-left: 7px;
+}
+.certificationSection img:hover{
+    transform: scale(1.7);
+}
+footer{
+    height: 70vh;
+    background-color: black;
+    color: white;
+}
+footer h2,p{
+    font-family:  cursive;
+}
+nav ul li:hover{
+    background-color: deepskyblue;
+    border: 2px solid black;
+}
+nav a{
+    padding-bottom: 3px;
+}
+a::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: transparent;
+    transition:all 1s ease-in-out;
+}
+a:hover::after{
+    width: 100%;
+    background-color:violet;
+}
+@media all and (max-width:200px){
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+}
